@@ -1,68 +1,29 @@
 ﻿# final-year-project
 
-🚀 Project Setup & Running Instructions
+Steps to Run the Project
 
-Follow the steps below to run the project locally.
+First, navigate to the server folder and start the server.
 
-📌 Prerequisites
-
-Make sure the following are installed on your system:
-
-Node.js (v16 or later recommended)
-
-npm
-
-MongoDB (running locally or via cloud service)
-
-🖥️ Running the Backend Server
-
-Open a terminal and navigate to the server directory:
-
-cd server
-
-
-Install the required dependencies:
-
-npm install
-
-
-Start the backend server:
+To start the server, run the following command:
 
 npm start
 
 
-✔ This will start the server and establish a connection with MongoDB.
+This will start the server and connect to MongoDB.
 
-🌐 Running the Frontend (Web Client)
-
-Open a new terminal window.
-
-Navigate to the web-client directory:
-
-cd web-client
-
-
-Install the required dependencies:
+To run the server, all required dependencies must be installed using:
 
 npm install
 
 
-Start the frontend development server:
+Next, open a new terminal window and navigate to the web-client folder.
+
+In the web-client folder, run the following command:
 
 npm run dev
 
 
-✔ This will launch the web application on a local development server.
+This will start the local development server for the web application.
 
-✅ Accessing the Application
-
-Backend Server: Runs in the background and handles API requests.
-
-Frontend Application: Accessible via the local URL shown in the terminal after running npm run dev.
-
-📎 Notes
-
-Ensure MongoDB is running before starting the backend server.
-
-Use separate terminals for the backend and frontend to run both services simultaneously.
+If you want, I can also:
 
