@@ -1,0 +1,38 @@
+/* Custom styles for Faculty Dashboard */
+.faculty-dashboard-wrapper {
+  font-family: 'Lexend', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  font-size: 24px;
+}
+
+.material-symbols-outlined.filled {
+  font-variation-settings: 'FILL' 1;
+}
+
+/* Section Animation */
+.fade-in-section {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom Scrollbar */
+.faculty-dashboard-wrapper ::-webkit-scrollbar { width: 6px; height: 6px; }
+.faculty-dashboard-wrapper ::-webkit-scrollbar-track { background: transparent; }
+.faculty-dashboard-wrapper ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+.faculty-dashboard-wrapper ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Custom helper for rotation on hover */
+.group-hover\/btn\:rotate-12:hover { transform: rotate(12deg); }

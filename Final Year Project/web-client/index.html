@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Panel - Unified Dashboard</title>
+    <!-- Unified Fonts & Icons -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#135bec",
+              "primary-hover": "#0e4bce",
+              "background-light": "#f6f6f8",
+              "background-dark": "#101622",
+              surface: "#ffffff",
+              "text-main": "#0d121b",
+              "text-secondary": "#4c669a",
+              "border-color": "#e7ebf3",
+            },
+            fontFamily: {
+              display: ["Lexend", "sans-serif"],
+              body: ["Noto Sans", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "1rem",
+              lg: "1.5rem",
+              xl: "2rem",
+              "2xl": "2.5rem",
+              full: "9999px",
+            },
+            boxShadow: {
+              soft: "0 4px 20px -2px rgba(0, 0, 0, 0.05)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
